@@ -14,7 +14,7 @@ A brief overview of the main technologies used in this project:
 | <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg" alt="Matplotlib Logo" width="100"> | Matplotlib | Comprehensive library for creating static, animated, and interactive visualizations. |
 | <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" alt="Seaborn Logo" width="100"> | Seaborn | Statistical data visualization library based on Matplotlib. |
 | <img src="https://plotly-marketing-website-2.cdn.prismic.io/plotly-marketing-website-2/Z7eNlJ7c43Q3gCJv_Plotly-Logo-Black.svg" alt="Plotly Logo" width="100"> | Plotly | Interactive graphing library. |
-| <img src="https://jupyter.org/assets/main-logo.svg" alt="Jupyter Logo" width="50"> | Jupyter Notebook | Web-based interactive computing platform used for the analysis. |
+| ![Jupyter](https://img.shields.io/badge/jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white)   | Jupyter Notebook | Web-based interactive computing platform used for the analysis. |
 | <img src="https://raw.githubusercontent.com/scikit-learn/scikit-learn/main/doc/logos/scikit-learn-logo.svg" alt="Scikit-learn Logo" width="100"> | scikit-learn | Machine learning library (used here for `LabelEncoder`). |
 
 Other libraries used: `fuzzywuzzy`, `python-Levenshtein`, `chardet`, `warnings`.
