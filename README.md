@@ -36,12 +36,14 @@ The Jupyter Notebook `Analysis.ipynb` performs the following key steps:
     *   Loads the dataset using pandas.
     *   Determines the character encoding of the CSV file using `chardet`.
     *   Displays the first few rows and basic information about the dataset (shape, columns).
+   
 2.  **Data Cleaning and Preprocessing:**
     *   Drops irrelevant columns (e.g., `S#`).
     *   Handles inconsistencies in city names by converting to lowercase, stripping whitespace, and using fuzzy string matching (`fuzzywuzzy`) to standardize names (e.g., 'd.i khan' and 'd. i khan').
     *   Corrects inconsistencies and standardizes values in other categorical columns like `Province`, `Location Category`, `Target Type`, `Targeted Sect if any`, `Holiday Type`, and `Open/Closed Space`.
     *   Converts the `Date` column to datetime objects and extracts the `Year`.
     *   Cleans and fills missing values in `Injured Max` and `Injured Min` columns.
+      
 3.  **Exploratory Data Analysis (EDA):**
     *   Analyzes the number of people killed and injured per year, visualizing trends.
     *   Investigates the correlation between suicide bombing attacks and influencing events.
@@ -49,8 +51,6 @@ The Jupyter Notebook `Analysis.ipynb` performs the following key steps:
     *   Determines and lists the top 10 locations of blasts.
 
 ## Visualizations
-
-*(Note: To see these visualizations, you need to run the `Analysis.ipynb` notebook after ensuring the image export code has been added to it. The images will be saved to an `images/` directory.)*
 
 1.  **People Killed Per Year by Province:**
     ![People Killed Per Year by Province](images/killed_per_year_province.png)
