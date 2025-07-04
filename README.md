@@ -68,17 +68,6 @@ The Jupyter Notebook `Analysis.ipynb` performs the following key steps:
 5.  **Number of Suicide Blasts by Location (Top 10):**
     ![Number of Suicide Blasts by Location](images/blasts_by_location.png)
 
-## How to Run
-
-1.  Ensure you have Python installed.
-2.  Install the necessary libraries. You can typically do this using pip:
-    ```bash
-    pip install pandas seaborn matplotlib numpy fuzzywuzzy python-Levenshtein chardet plotly scikit-learn kaleido
-    ```
-    The notebook also includes commented-out pip install commands for `fuzzywuzzy`, `python-Levenshtein`, and `chardet`. The `kaleido` library is needed for exporting Plotly charts as static images.
-3.  Ensure the `Analysis.ipynb` notebook includes the code to save plots as images (as previously discussed and added).
-4.  Open and run the `Analysis.ipynb` notebook using Jupyter Notebook or JupyterLab. This will generate the plots and save them to the `images/` directory.
-5.  Once the images are generated, they will appear in the "Visualizations" section of this README.
 
 ## Findings (Summary from EDA)
 
