@@ -8,7 +8,7 @@ A brief overview of the main technologies used in this project:
 
 | Logo | Technology | Description |
 |---|---|---|
-| <img src="https://www.python.org/static/community_logos/python-logo-only.png" alt="Python Logo" width="50"> | Python | Core programming language. |
+| ![Python](https://img.shields.io/badge/python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)   | Python | Core programming language. |
 | <img src="https://pandas.pydata.org/static/img/pandas.svg" alt="Pandas Logo" width="100"> | Pandas | Data manipulation and analysis library. |
 | <img src="https://numpy.org/images/logo.svg" alt="NumPy Logo" width="100"> | NumPy | Fundamental package for numerical computation. |
 | <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Matplotlib_logo.svg" alt="Matplotlib Logo" width="100"> | Matplotlib | Comprehensive library for creating static, animated, and interactive visualizations. |
