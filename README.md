@@ -86,8 +86,4 @@ The Jupyter Notebook `Analysis.ipynb` performs the following key steps:
 *   KPK province experienced a significant number of these incidents.
 *   The analysis identifies hospitals most frequently dealing with victims of these attacks, with Lady Reading Hospital appearing prominently.
 *   The notebook also lists the top 10 most frequent blast locations.
-*   A weak positive correlation (around 0.075) was found between the number of suicide blasts and the encoded 'Influencing Event/Event' column after label encoding. An earlier calculation grouping by the event string showed a correlation of 0.58, suggesting that the nature of the influencing event might have some relationship with the number of blasts, though the label encoding might obscure this.
-
----
-
-*This README was updated by an AI assistant to include sections for Tech Stack and Visualizations.*
+*   A weak positive correlation (around 0.075) was found between the number of suicide blasts and the encoded 'Influencing Event/Event' column after label encoding. An earlier calculation grouping by the event string showed a correlation of 0.58, suggesting that the nature of the influencing event might have some relationship with the number of blasts. However, the label encoding might obscure this.
